@@ -5,8 +5,17 @@ const winningCombos = [
     [2,4,6], [0,3,6], [1,4,7], [2,5,8]
 ];
 
+
+
+
+
+//init();
+
+
+
+
 function init(){
-    
+    document.querySelector('.board').textContent = "";
 }
 
 
