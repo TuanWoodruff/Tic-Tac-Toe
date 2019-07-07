@@ -8,7 +8,7 @@ const winningCombos = [
 
 
 
-
+const board = () => Array.from(document.getElementsByClassName('.board-box'))
 
 
 
