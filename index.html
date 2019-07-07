@@ -13,25 +13,25 @@
         </div>
         
         <div class="col span-1-of-2 box">
-            <h2 class="player-1"> Player X </h2>
+            <h2 class="player" id="player-1"> Player X </h2>
         </div>
         <div class="col span-1-of-2 box">
-            <h2 class="player-2"> Player O </h2>
+            <h2 class="player" id="player-2"> Player O </h2>
         </div>
       
         <div class="game-board">
             <table id="board"> 
-                <tr>
+                <tr class="board-row">
                     <td class="board-box" id="box-0">X</td>
                     <td class="board-box" id="box-1">O</td>
                     <td class="board-box" id="box-2">X</td>
                 </tr>
-                <tr>
+                <tr class="board-row">
                     <td class="board-box" id="box-3">X</td>
                     <td class="board-box" id="box-4">O</td>
                     <td class="board-box" id="box-5">X</td>
                 </tr> 
-                <tr>
+                <tr class="board-row">
                     <td class="board-box" id="box-6">X</td>
                     <td class="board-box" id="box-7">O</td>
                     <td class="board-box" id="box-8">X</td>
@@ -39,7 +39,7 @@
             </table>
         </div>
       
-        <div>
+        <div class="buttons">
             <button class="button-0">Start Game</button>
             <button class="button-1">Reset Game</button>
             <button class="button-2">End Turn</button>
