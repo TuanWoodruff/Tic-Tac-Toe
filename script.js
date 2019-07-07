@@ -29,8 +29,8 @@ function nextPlayer(){
 }
 
 
-function reset(){
-    
-}
+document.querySelector('.button-1').addEventListener('click', function() {
+    init();
+})
 
 
