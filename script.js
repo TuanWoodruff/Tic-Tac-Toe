@@ -5,10 +5,35 @@ const winningCombos = [
     [2,4,6], [0,3,6], [1,4,7], [2,5,8]
 ];
 
+/*
+//Helper
+const board = () => Array.from(document.getElementsByClassName('q'));
+const boxesId = (qEl) => Number.parseInt(qEl.id.replace('box-', ''));
+const emptyQs = () => board().filter(_qEl => _qEl.interText === '');
+const allSame = (arr) => arr.every(_qEl => _qEl.innerText === arr[0].innerText && _qEl.innerText !== '');
+
+const takeTurn = (index, letter) => board()[index].innerText = letter;
 
 
 
-const board = () => Array.from(document.getElementsByClassName('.board-box'))
+const enableListeners = () => board().forEach(_qEl => _qEl.addEventListener('click', clickFn));
+const disableListeners = () => board().forEach(_qEl => _qEl.removeEventListener('click', clickFn));
+
+const opponentChoice = () => boxesId(emptyQs()[Math.floor(Math.random() * emptyQs().length)]);
+const opponentTurn = () => {
+    disableListeners();
+    setTimeout(() => {
+        takeTurn(opponentChoice(), 'O');
+        enableListeners();
+    }, 1000);
+}
+
+const clickFn = (event) => {
+    takeTurn(boxesId(event.target), 'X');
+    opponentTurn();
+}
+
+enableListeners();
 
 
 
@@ -18,7 +43,7 @@ const board = () => Array.from(document.getElementsByClassName('.board-box'))
 
 
 
-
+*/
 
 
 
