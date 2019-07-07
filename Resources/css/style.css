@@ -25,30 +25,27 @@ h1 {
     text-align: center;
     margin: 20px;
     padding: 10px;
-    
 }
 
+/*--------------------
+PLAYER NAME BOXES
+--------------------*/
 h2 {
     font-size: 35px;
     font-weight: 300;
     text-align: center;
 }
 
-/*--------------------
-PLAYER NAME BOXES
---------------------*/
 .col.span-1-of-2.box {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: auto;
+    padding: 10px;
 }
 
 /*--------------------
 TIC-TAC-TOE BOX
 --------------------*/
-
 table {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 table.board {
@@ -62,3 +59,19 @@ td {
     width: 150px;
     text-align: center;
 }
+
+/*--------------------
+TIC-TAC-TOE BOX
+--------------------*/
+
+.buttons {
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+
+
+
+
