@@ -28,3 +28,9 @@ function nextPlayer(){
     
 }
 
+
+function reset(){
+    
+}
+
+
